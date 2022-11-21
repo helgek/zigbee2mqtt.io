@@ -1,6 +1,6 @@
 ---
-title: "Zemismart M515EGBZTN control via MQTT"
-description: "Integrate your Zemismart M515EGBZTN via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
+title: "Zemismart M515EGBZTN or TM616EGBZTN control via MQTT"
+description: "Integrate your Zemismart M515EGBZTN or TM616EGBZTN via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2022-08-31T11:26:27
 pageClass: device-page
 ---
@@ -11,11 +11,11 @@ pageClass: device-page
 <!-- Do not use h1 or h2 heading within "## Notes"-Section. -->
 <!-- !!!! -->
 
-# Zemismart M515EGBZTN
+# Zemismart M515EGBZTN / TM616EGBZTN
 
 |     |     |
 |-----|-----|
-| Model | M515EGBZTN  |
+| Model | M515EGBZTN / TM616EGBZTN  |
 | Vendor  | [Zemismart](/supported-devices/#v=Zemismart)  |
 | Description | Roller shade driver |
 | Exposes | cover (state, position), motor_direction, border, linkquality |
