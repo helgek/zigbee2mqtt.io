@@ -24,7 +24,14 @@ pageClass: device-page
 
 <!-- Notes BEGIN: You can edit here. Add "## Notes" headline if not already present. -->
 
-
+## Notes
+Important note for those who have the second generation device (labeled as TM616EGBZTN but recognized as M515EGBZTN in Zigbee2MQTT): 
+The official documentation states only provides instructions on how to set the limits via app (via Z2M ui using the Z2M integration).
+But there's undocumented way to set the limits also on the device (as it is also possible with the older / first generation M515EGBZTN devices which are also identified as M515EGBZTN in Z2M). To set limits using the buttons on the device do the following:
+1. Press and hold 'Up' & 'Down' button at the same time for about 5 seconds.
+2. The device will shortly flash red and then it will blink continously with blue color.
+3. Now go to the first limit position (if in 'forward' mode which is the factory setting this is the upper limit). Once reached press the 'Stop' button twice very quickly -> first limit is set.
+4. Now go to the second limit position (if in 'forward' mode which is the factory setting this is the lower limit). Once reached press the 'Stop' button again twice very quickly -> second limit is set.
 <!-- Notes END: Do not edit below this line -->
 
 
